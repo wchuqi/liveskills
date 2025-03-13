@@ -8,7 +8,62 @@ https://ipython.readthedocs.io/en/stable/index.html
 
 
 
+什么是 Jupyter Notebook？
+
+> 按照 Jupyter 创始人 Fernando Pérez 的说法，他最初的梦想是做一个综合 Ju （Julia）、Py （Python）和 R 三种科学运算语言的计算工具平台，所以将其命名为 Ju-Py-te-R。
+
+
+
+三大特点：
+
+1、整合所有的资源
+
+2、交互性编程体验
+
+3、零成本重现结果
+
+
+
+在线平台：
+
+Jupyter 官方的 Binder 平台：
+
+文档：https://mybinder.readthedocs.io/en/latest/index.html）
+
+Google 提供的 Google Colab 环境：
+
+文档：https://colab.research.google.com/notebooks/welcome.ipynb
+
+它们让 Jupyter Notebook 变得和石墨文档、Google Doc 在线文档一样，在浏览器点开链接就能运行。
+
+
+
+作为你实践的第一站。
+第一个是 Jupyter 官方：
+
+https://mybinder.org/v2/gh/binder-examples/matplotlib-versions/mpl-v2.0/?filepath=matplotlib_versions_demo.ipynb
+
+第二个是 Google Research 提供的 Colab 环境，尤其适合机器学习的实践应用：
+https://colab.research.google.com/notebooks/basic_features_overview.ipynb
+
+
+
+安装：https://jupyter.org/install.html
+
+运行：https://jupyter.readthedocs.io/en/latest/running.html#running
+
+
+
 # 安装
+
+Jupyter本地的两种安装办法：
+
+1、安装Anconda。conda包含科学计算的几乎所有包，包含jupyter。
+2、仅安装了Python。可以pip install ipython, jupyter。安装即可。
+
+命令行启动jupyter：`jupyter notebook`
+
+
 
 1、安装`Anaconda`或者`Miniconda`
 
