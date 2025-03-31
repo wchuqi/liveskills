@@ -13,7 +13,7 @@
 通过数据源定义好可视化的数据来源之后，通过Dashboard来组织和管理数据可视化图表。
 
 `Grafana Dashboard`
-![](images/Pasted image 20250116225256.png)
+![](images/20250116225256.png)
 
 
 如上所示，在一个Dashboard中一个最基本的可视化单元为一个**Panel（面板）**，Panel通过如趋势图，热力图的形式展示可视化数据。 
@@ -69,7 +69,7 @@ Graph面板天生适用于 Prometheus 中 Gauge 和 Counter 类型监控指标�
 例如，当需要查看主机CPU、内存使用率的随时间变化的情况时，可以使用 Graph 面板。
 同时，Graph 还可以非常方便的支持多个数据之间的对比。
 
-![](images/Pasted image 20250116231520.png)
+![](images/20250116231520.png)
 
 ### 分布统计：Heatmap 面板
 
@@ -83,7 +83,7 @@ Singlem Panel侧重于展示系统的当前状态而非变化趋势。
 - 当前基础设施资源的使用量；
 - 当前系统中某些事件发生的次数或者资源数量等。
 
-![](images/Pasted image 20250116231905.png)
+![](images/20250116231905.png)
 
 
 
